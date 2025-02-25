@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="/styles.css">
+<h1>Comentarios</h1>
+
+<!-- Botón para volver al login -->
+
+<!-- Botón con símbolo de casa para regresar a la página de inicio -->
+<a href="/">
+    <button type="button">🏠 Inicio</button>
+</a>
+
+<!-- Formulario para enviar comentarios -->
+<form action="/comments" method="POST">
+    <textarea name="comment" placeholder="Escribe un comentario"></textarea>
+    <button type="submit">Enviar</button>
+</form>
+
+<!-- Lista de comentarios -->
+<ul>
+    <% comments.forEach(comment => { %>
+        <li><%= comment.comment %></li>
+    <% }) %>
+</ul>
