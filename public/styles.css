@@ -1,9 +1,6 @@
-/* styles.css */
-
-/* Estilos globales */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #121212; /* Fondo más oscuro para mejor contraste */
+    background-color: #121212; 
     color: #ffffff;
     margin: 0;
     padding: 0;
@@ -13,21 +10,19 @@ body {
     min-height: 100vh;
 }
 
-/* Contenedor principal */
 .container {
-    background-color: #222222; /* Fondo gris oscuro más elegante */
+    background-color: #222222; 
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6); /* Sombra más pronunciada */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
     width: 100%;
     max-width: 450px;
-    border: 2px solid #a30000; /* Rojo más vibrante */
-    text-align: center; /* Centrar todo el contenido */
+    border: 2px solid #a30000; 
+    text-align: center; 
 }
 
-/* Estilo de los títulos */
 h1 {
-    color: #cc0000; /* Rojo más brillante */
+    color: #cc0000; 
     font-family: 'Metal Lord', sans-serif;
     font-size: 2.5em;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
@@ -38,7 +33,7 @@ h1 {
 form {
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centrar elementos del formulario */
+    align-items: center; 
     width: 100%;
 }
 
@@ -50,9 +45,9 @@ textarea {
     border: 1px solid #a30000;
     border-radius: 6px;
     font-size: 16px;
-    background-color: #2a2a2a; /* Fondo un poco más claro */
+    background-color: #2a2a2a; 
     color: #ffffff;
-    width: 85%; /* Ancho consistente */
+    width: 85%; 
     transition: border-color 0.3s, box-shadow 0.3s;
 }
 
@@ -68,12 +63,12 @@ input[type="text"]::placeholder,
 input[type="password"]::placeholder,
 textarea::placeholder {
     color: #999999;
-    text-align: center; /* Centrar el texto placeholder */
+    text-align: center; 
 }
 
 button {
     padding: 12px 25px;
-    background-color: #a30000; /* Rojo vino */
+    background-color: #a30000;
     color: white;
     border: none;
     border-radius: 6px;
@@ -83,12 +78,12 @@ button {
     text-transform: uppercase;
     transition: all 0.3s ease;
     margin: 15px 0;
-    width: 85%; /* Ancho consistente */
+    width: 85%; 
 }
 
 button:hover {
-    background-color: #cc0000; /* Rojo más brillante al hover */
-    transform: translateY(-2px); /* Efecto de elevación */
+    background-color: #cc0000;
+    transform: translateY(-2px);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -96,7 +91,6 @@ button:active {
     transform: translateY(0);
 }
 
-/* Estilo para la lista de comentarios */
 ul {
     list-style: none;
     padding: 0;
@@ -111,7 +105,7 @@ li {
     border-radius: 6px;
     border: 1px solid #a30000;
     color: #ffffff;
-    text-align: left; /* Alinear texto a la izquierda para mejor legibilidad */
+    text-align: left; 
 }
 
 a {
@@ -122,39 +116,35 @@ a {
 }
 
 a:hover {
-    color: #ff3333; /* Rojo más claro al hover */
+    color: #ff3333; 
     text-decoration: underline;
 }
 
-/* Estilo para el botón de inicio */
 button[type="button"] {
     background-color: #a30000;
     color: white;
     padding: 12px 25px;
     margin: 15px auto;
-    display: block; /* Para centrar */
-    width: auto; /* Ancho automático para botones específicos */
+    display: block; 
+    width: auto; 
     min-width: 150px;
 }
 
-/* Estilo para el formulario de comentarios */
 textarea {
     width: 85%;
     height: 120px;
     padding: 15px;
     margin-bottom: 15px;
-    resize: vertical; /* Permitir redimensionar verticalmente */
+    resize: vertical;
 }
 
-/* Estilo para el botón de envío */
 button[type="submit"] {
     background-color: #a30000;
     width: 85%;
     margin: 15px auto;
-    display: block; /* Para centrar */
+    display: block; 
 }
 
-/* Animación sutil para elementos interactivos */
 button, input, textarea, a {
     transition: all 0.3s ease;
 }
